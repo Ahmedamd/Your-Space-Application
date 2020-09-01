@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Set Goals</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="fontawesome-free-5.13.1-web/css/all.css" />
+
+  </head>
+  <body>
+    <div class="setG-header">
+      <div class="setG-title grid">Your Space</div>
+
+      <h2 class="s-header">Set Goals</h2>
+    </div>
+
+    <br />
+    <br />
+
+    <div class="modal">
+      <div class="modal-content">
+        <input class="modal-title" placeholder="Title" type="text" />
+        <textarea
+          name=""
+          class="modal-text"
+          cols="40"
+          rows="20"
+          placeholder="Add a new entry"
+        ></textarea>
+        <!-- <input class="modal-text" placeholder="Take a note..." type="text" /> -->
+        <span class="modal-close-button">Close</span>
+      </div>
+    </div>
+    <!-- end of modal for setting goals -->
+    <div class="s-goals section">
+      <div class="one-box">
+        <form action="" id="form">
+          <input
+            type="text"
+            name=""
+            id="goal-title"
+            class=""
+            placeholder="Write your goal"
+          />
+
+         
+
+          <div class="list-goals">
+            <h5>Steps to acheive goal</h6>
+             
+            <div class="list-item">
+              <div class="add">
+            <i class="fas fa-plus"></i>
+              </div>
+              <input type="text" name="" id="s-goal" class="" placeholder="Write Step" />
+            </div>
+          </div>
+
+          <div
+                      name=""
+                      type = "text"
+                      id="s-text"
+                      cols="40"
+                      rows="5"
+                     
+                    >
+                  
+                  </div>
+
+          <input
+            type="text"
+            name=""
+            id="s-target"
+            class=""
+            placeholder="Deadline to acheive goal"
+          />
+
+          <div id="formbtns">
+            <button class="set-btn capatalize" type="submit">submit</button>
+          </div>
+          <!-- <span class="textarea" role="textbox" id="text-Note" contenteditable></span></p>
+                              </div> -->
+        </form>
+
+        <!-- end of form -->
+      </div>
+    </div>
+
+
+    <div id="goals-collection">
+      <!-- <div class="box">
+            
+              <i class="fas fa-pen"></i>
+            
+              <article id="box-title"></article>
+            
+              <article id="box-content"></article>
+            
+            </div> -->
+    </div>
+
+      <div id="placeholder">
+        <img id="placeholder-logo" src="https://icon.now.sh/lightbulb_outline" />
+        <p id="placeholder-text">Notes you add appear here</p>
+      </div>
+
+
+    <script src="goals.js"></script>
+  </body>
+</html>
